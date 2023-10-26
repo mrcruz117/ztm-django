@@ -18,7 +18,7 @@ $ pip install django-filter
 
 ## Important Note
 
-Because of the `nest` library, you need to create different serializers depending on the action if you want to display the foreignKey item rather than just its pk
+Because of the `drf-nested-routers` library, you need to create different serializers depending on the action if you want to display the foreignKey item rather than just its pk
 ```python
 class Source_locationSerializer(serializers.ModelSerializer):
     class Meta:
